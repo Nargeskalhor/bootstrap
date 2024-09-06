@@ -1,6 +1,23 @@
+@font-face {
+  font-family: "vazir";
+  src: url("/font/Vazirmatn-Light.woff2");
+  src: url("/font/Vazirmatn-Black.woff2") format("woff2");
+  src: url("/font/Vazirmatn-Thin.ttf") format("truetype");
+  src: url("/font/Vazirmatn[wght].ttf") format("truetype");
+  src: url("/font/Vazirmatn[wght].woff2") format("woff2");
+}
+body {
+  font-family: "vazir" !important;
+}
 .col-one {
   padding-right: 8rem;
 }
 .col-two {
   padding-right: 10rem;
+}
+.icon {
+  background-color: #ebeafb;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 15px;
 }
