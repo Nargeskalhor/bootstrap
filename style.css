@@ -10,7 +10,7 @@ body {
   font-family: "vazir" !important;
 }
 .col-one {
-  padding-right: 8rem;
+  padding-right: rem;
 }
 .col-two {
   padding-right: 10rem;
@@ -20,4 +20,5 @@ body {
   display: inline-flex;
   padding: 10px;
   border-radius: 14px;
+  color: #0d6efd;
 }
